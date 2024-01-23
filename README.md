@@ -4,8 +4,11 @@ A ready-to-use Microsoft login page for Gophish
 This folder includes solutions to challenges I’ve faced while designing phishing campaigns with appropriate permissions:
 
 1º A current and operational Microsoft login page.
+
 2º Compatibility between .html and .js files to enable Gophish to capture credentials.
+
 3º A resolution to the inherent issue of redirections:
+
 In the Gophish HTML, you need to ensure the following:
 
 Set the action to an empty string (“”)
