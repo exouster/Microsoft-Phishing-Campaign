@@ -16,4 +16,9 @@ In the Gophish HTML, you need to ensure the following in order to capture creden
 The issue arises when you apply these settings to both Microsoft login screens (the email input screen with “next” button and the credential input screen with “sign in” button). If the redirection option is enabled on the Gophish server, it redirects you after the first screen, not allowing you to enter passwords.
 
 
+In order for this to work with Gophish, remember to:
+1. Put the assets in /static/endpoint.
+2. Change the HTML for each and every asset from assets/everyasset to boughtdomain.com/static/everyasset.
+3. Set the landing page to capture credentials.
+4. Set the landing page to redirect.
 
